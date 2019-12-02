@@ -1,0 +1,7 @@
+* serial port
+** list serial port
++ dmesg | grep tty
+
+** connect to serial port in emacs
+M-x serial-term
+serial-term port speed
